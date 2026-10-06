@@ -1,0 +1,126 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-image: url('fond.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+}
+
+#topbar {
+    background-color: black;
+    width: 100%;
+    height: 75px;
+    align-items: center;
+    display: flex;;
+}
+
+#img {
+    display: flex;
+    margin-right: 20px;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#GameName {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    gap: 15px;
+}
+
+#NameGame {
+    display: flex;
+    color: white;
+}
+
+#lvl {
+    align-items: center;
+    display: flex;
+    gap: 15px;
+}
+
+#topbar p {
+    margin: 0;
+}
+
+#zoneOnglets {
+    display: flex;
+    margin: 0;
+    width: 100px;
+    height: 100px;
+}
+
+.ongelts {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 70px;
+    height: 50px;
+}
+
+.img {
+    display: flex;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-bottom: 10px;
+    display: flex;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+}
+
+#stuff {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 60px;
+    height: 60px;
+}
+
+#Title {
+    margin: 0;
+    display: flex;
+    margin-top: 30px;
+}
+
+.ongelts:hover {
+    transform: scale(0.96);
+}
+
+#stuff:hover {
+    transform: scale(0.96);
+}
+
+
+.headerPlay {
+    padding: 10px 15px;
+    background-color: #333333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #444444;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    font-weight: bold;
+}
+
+#game {
+    width: 100px;
+    height: 50px;
+}
+
+.PseudoContent {
+    padding: 20px;
+    text-align: center;
+}
